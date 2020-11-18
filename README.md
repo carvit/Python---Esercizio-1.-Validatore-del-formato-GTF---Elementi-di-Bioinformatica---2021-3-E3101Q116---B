@@ -18,17 +18,17 @@ I controlli sono a cascata: il record deve passarli dal primo all'ultimo;
 viene segnalata eventualmente la prima violazione rilevata.
 Di seguito la gerarchia dei controlli:
 - index
-	score
-		sorgente
-			software
-				strand
-					feature
-					lunghezza
-					frame
-						transcript_id
-							gene_id
-								transcript_value
-									gene_value
+	- score
+		- sorgente
+			- software
+				- strand
+					- feature
+					- lunghezza
+					- frame
+						- transcript_id
+							- gene_id
+								- transcript_value
+									- gene_value
 (quindi: se passa il controllo gene_value il record è conforme)
 
 Errore index
