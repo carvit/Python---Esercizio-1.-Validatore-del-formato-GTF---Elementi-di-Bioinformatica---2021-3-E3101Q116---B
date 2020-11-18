@@ -29,8 +29,11 @@ Di seguito la gerarchia dei controlli:
 							- gene_id
 								- transcript_value
 									- gene_value
+									
 (quindi: se passa il controllo gene_value il record è conforme)
 
+
+Controlli
 - Errore index
 Se campo 4 non è numerico oppure
 se campo 5 non è numerico oppure
