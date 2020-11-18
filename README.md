@@ -17,9 +17,9 @@ Il programma si salva i valori di sorgente e software riportati dai primi due ca
 I controlli sono a cascata: il record deve passarli dal primo all'ultimo; 
 viene segnalata eventualmente la prima violazione rilevata.
 Di seguito la gerarchia dei controlli:
-index
-	score
-		sorgente
+- index
+- 	score
+-		sorgente
 			software
 				strand
 					feature
