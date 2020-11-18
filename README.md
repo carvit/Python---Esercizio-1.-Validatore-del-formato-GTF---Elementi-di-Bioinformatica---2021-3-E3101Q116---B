@@ -97,11 +97,11 @@ Se l'attributo al campo 9 non presenta la dicitura "gene_id" nella corretta posi
 
 - Errore transcript_value
 
-se non c'è un errore di tipo gene_id ma l'attributo al campo 9 non presenta un valore significativo di transcript_id allora 
+se non c'è un errore di tipo gene_id ma l'attributo al campo 9 non presenta un valore significativo di transcript_id 
 
 
 - Errore gene_value
 
-se non c'è un errore di tipo transcript_value ma l'attributo al campo 9 non presenta un valore significativo di gene_id allora
+se non c'è un errore di tipo transcript_value ma l'attributo al campo 9 non presenta un valore significativo di gene_id 
 
 
