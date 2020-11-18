@@ -31,32 +31,32 @@ Di seguito la gerarchia dei controlli:
 									- gene_value
 (quindi: se passa il controllo gene_value il record è conforme)
 
-Errore index
+- Errore index
 Se campo 4 non è numerico oppure
 se campo 5 non è numerico oppure
 se campo 4 non è minore del campo 5
-Errore score
+- Errore score
 Se campo 6 non è '.' ne è numerico
-Errore sorgente
+- Errore sorgente
 Se campo 1 è diverso dal campo sorgente del primo record
-Errore software
+- Errore software
 Se campo 2 è diverso dal campo software del primo record	
-Errore strand
+- Errore strand
 Se campo 7 non è "-" ne "+"
-Errore feature
+- Errore feature
 Se campo 3 non è "CDS" ne 'start_codon' ne 'stop_codon' ne '5UTR' ne '3UTR'
-Errore lunghezza
+- Errore lunghezza
 Se campo 3 è 'start_codon' oppure 'stop_codon' e la differenza tra campo 5 e campo 4 è maggiore di 2
-Errore frame
+- Errore frame
 Se campo 3 è 'exon' e campo 8 non è '.' oppure
 Se campo 3 è 'CDS"  e campo 8 non è tra 0, 1, 2 oppure
 Se campo 3 è tra 'start_codon' e 'stop_codon' e la differenza tra campo 5 e campo 4 non è maggiore di 2 e campo 8 non è tra 0, 1, 2 
 Se campo 3 è tra '5UTR' e '3UTR' e se campo 8 non è '.'
-Errore transcript_id
+- Errore transcript_id
 Se l'attributo al campo 9 non presenta la dicitura "transcript_id" nella corretta posizione è un errore di tipo transcript_id
-Errore gene_id
+- Errore gene_id
 Se l'attributo al campo 9 non presenta la dicitura "gene_id" nella corretta posizione è un errore di tipo gene_id
-Errore transcript_value
+- Errore transcript_value
 se non c'è un errore di tipo gene_id ma l'attributo al campo 9 non presenta un valore significativo di transcript_id allora è un errore di tipo transcript_value
-Errore gene_value
+- Errore gene_value
 se non c'è un errore di tipo transcript_value ma l'attributo al campo 9 non presenta un valore significativo di gene_id allora è un errore di tipo gene_value
