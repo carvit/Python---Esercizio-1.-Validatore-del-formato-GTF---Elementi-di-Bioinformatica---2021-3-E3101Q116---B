@@ -87,21 +87,21 @@ Se campo 3 è tra '5UTR' e '3UTR' e se campo 8 non è '.'
 
 - Errore transcript_id
 
-Se l'attributo al campo 9 non presenta la dicitura "transcript_id" nella corretta posizione è un errore di tipo transcript_id
+Se l'attributo al campo 9 non presenta la dicitura "transcript_id" nella corretta posizione 
 
 
 - Errore gene_id
 
-Se l'attributo al campo 9 non presenta la dicitura "gene_id" nella corretta posizione è un errore di tipo gene_id
+Se l'attributo al campo 9 non presenta la dicitura "gene_id" nella corretta posizione 
 
 
 - Errore transcript_value
 
-se non c'è un errore di tipo gene_id ma l'attributo al campo 9 non presenta un valore significativo di transcript_id allora è un errore di tipo transcript_value
+se non c'è un errore di tipo gene_id ma l'attributo al campo 9 non presenta un valore significativo di transcript_id allora 
 
 
 - Errore gene_value
 
-se non c'è un errore di tipo transcript_value ma l'attributo al campo 9 non presenta un valore significativo di gene_id allora è un errore di tipo gene_value
+se non c'è un errore di tipo transcript_value ma l'attributo al campo 9 non presenta un valore significativo di gene_id allora
 
 
