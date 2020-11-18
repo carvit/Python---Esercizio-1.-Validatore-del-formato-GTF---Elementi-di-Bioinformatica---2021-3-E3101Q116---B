@@ -1,0 +1,14 @@
+campo 1	campo 2	campo 3	non numerico	2	campo 6	campo 7	campo 8	campo 9
+campo 1	campo 2	campo 3	4	5	score ko	campo 7	campo 8	campo 9
+sorgente ko	campo 2	campo 3	4	5	6	campo 7	campo 8	campo 9
+campo 1	sw ko	campo 3	4	5	6	campo 7	campo 8	campo 9
+campo 1	campo 2	campo 3	4	5	.	*	campo 8	campo 9
+campo 1	campo 2	feature ko	4	5	6	-	campo 8	campo 9
+campo 1	campo 2	start_codon	2	5	6	-	campo 8	campo 9
+campo 1	campo 2	exon	3	5	6	-	campo 8	campo 9
+campo 1	campo 2	5UTR	14	75	76766	-	808	transcript_id "ti1"; gene_id "gi1";
+campo 1	campo 2	exon	3	5	6	-	.	no_transcript_id "ti1"; gene_id "gi1";
+campo 1	campo 2	exon	3	5	6	-	.	transcript_id "ti1"; no_gene_id "gi1";
+campo 1	campo 2	exon	3	5	6	-	.	transcript_id ""; gene_id "gi1";
+campo 1	campo 2	exon	3	5	6	-	.	transcript_id "ti1"; gene_id "";
+campo 1	campo 2	exon	3	5	6	-	.	transcript_id "ti1"; gene_id "gi1";
